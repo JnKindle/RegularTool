@@ -15,6 +15,7 @@
 		D74D7DBC1D702901000BEA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74D7DBA1D702901000BEA48 /* LaunchScreen.storyboard */; };
 		D74D7DC71D702901000BEA48 /* RegularToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D7DC61D702901000BEA48 /* RegularToolTests.m */; };
 		D74D7DD21D702901000BEA48 /* RegularToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D7DD11D702901000BEA48 /* RegularToolUITests.m */; };
+		D74D7DE21D70292F000BEA48 /* RegularTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D7DE11D70292F000BEA48 /* RegularTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D74D7DCD1D702901000BEA48 /* RegularToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74D7DD11D702901000BEA48 /* RegularToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularToolUITests.m; sourceTree = "<group>"; };
 		D74D7DD31D702901000BEA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74D7DE01D70292F000BEA48 /* RegularTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularTools.h; sourceTree = "<group>"; };
+		D74D7DE11D70292F000BEA48 /* RegularTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D74D7DAB1D702901000BEA48 /* RegularTool */ = {
 			isa = PBXGroup;
 			children = (
+				D74D7DDF1D70291B000BEA48 /* Expression */,
 				D74D7DAF1D702901000BEA48 /* AppDelegate.h */,
 				D74D7DB01D702901000BEA48 /* AppDelegate.m */,
 				D74D7DB21D702901000BEA48 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D74D7DD31D702901000BEA48 /* Info.plist */,
 			);
 			path = RegularToolUITests;
+			sourceTree = "<group>";
+		};
+		D74D7DDF1D70291B000BEA48 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				D74D7DE01D70292F000BEA48 /* RegularTools.h */,
+				D74D7DE11D70292F000BEA48 /* RegularTools.m */,
+			);
+			path = Expression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74D7DE21D70292F000BEA48 /* RegularTools.m in Sources */,
 				D74D7DB41D702901000BEA48 /* ViewController.m in Sources */,
 				D74D7DB11D702901000BEA48 /* AppDelegate.m in Sources */,
 				D74D7DAE1D702901000BEA48 /* main.m in Sources */,
